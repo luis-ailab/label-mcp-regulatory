@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build Label.Mcp.Regulatory",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "${workspaceFolder}/Label.Mcp.Regulatory.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "run Label.Mcp.Regulatory",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}/Label.Mcp.Regulatory.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "isBackground": true
+    }
+  ]
+}

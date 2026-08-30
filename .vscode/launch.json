@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Label.Mcp.Regulatory",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build Label.Mcp.Regulatory",
+      "program": "${workspaceFolder}/bin/Debug/net8.0/Label.Mcp.Regulatory.dll",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:5105"
+      },
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+bin/
+obj/
+.vs/
+.vscode/*.user
+*.user
+*.suo
+
+appsettings.Local.json
+.env
+.env.*
+
+Dockerfile.local

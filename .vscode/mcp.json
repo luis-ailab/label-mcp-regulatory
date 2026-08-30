@@ -1,0 +1,8 @@
+{
+    "servers": {
+        "label-regulatory": {
+            "type": "http",
+            "url": "http://localhost:5105/mcp"
+        }
+    }
+}
